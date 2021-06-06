@@ -23,7 +23,8 @@
     "npm": ">=5.7.1"
   },
   "scripts": {
-    "reset": "rm -rf ./node_modules && yarn bootstrap"
+    "reset": "rm -rf ./node_modules && yarn bootstrap",
+    "start": "nodemon ./scripts/server/index.ts"
   },
   "lint-staged": {
     "packages/**/*.{ts,tsx}": [
@@ -52,16 +53,29 @@
     "packages/*/src/lib/**"
   ],
   "devDependencies": {
+    "@types/koa": "^2.13.3",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-static": "^4.0.1",
     "@types/lodash": "^4.14.170",
+    "@types/node": "^15.12.1",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
+    "cz-customizable": "^6.3.0",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
+    "http": "^0.0.1-security",
+    "koa": "^2.13.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
     "lerna": "^4.0.0",
     "less": "^4.1.1",
     "lint-staged": "^11.0.0",
+    "loadsh": "^0.0.4",
+    "nodemon": "^2.0.7",
     "prettier": "^2.3.1",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   }
 }
