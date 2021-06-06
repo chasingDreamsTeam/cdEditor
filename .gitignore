@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+node_modules/
+build/
+coverage/
+packages/*/node_modules/
+.idea
+
+# Optional npm cache directory
+.npm
+
+# Ignore `mrgit.json` this file contains info about external repositories.
+mrgit.json
+
+# Mac
+.DS_Store
+
+# Build dist
+packages/*/dist

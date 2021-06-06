@@ -1,0 +1,16 @@
+{
+  "cSpell.words": [
+    "cdeditor",
+    "commitlint"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"],
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}
